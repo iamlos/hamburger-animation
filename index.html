@@ -1,0 +1,63 @@
+<!doctype>
+<html>
+
+<head>
+    <title>Hamburger Animation</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+    <div class="content">
+
+        <h2>Scroll to see the magic.</h2>
+
+        <div class="header__fake">
+
+            <div class="icn__wrap">
+                <i class="icn__hamburger"></i>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="58px" height="58px" viewBox="0 0 16 16" preserveAspectRatio="none">
+                    <circle cx="8" cy="8" r="6.215" transform="rotate(90 8 8)"></circle>
+                </svg>
+            </div>
+            <i class="btm__border"></i>
+
+        </div>
+
+
+        <h1>Tah-da!<span>Now scroll back up.</span></h1>
+
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $header = $('.header__fake');
+        
+        $(window).scroll(function() {
+
+            var scroll = $(window).scrollTop();
+
+            if(scroll > 20) {
+                $header.addClass('animated');                
+            } else {
+                $header.removeClass('animated');
+            }
+
+        });
+
+
+    });
+    </script>
+
+
+</body>
+
+</html>
