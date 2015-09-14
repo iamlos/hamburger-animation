@@ -1,4 +1,4 @@
-Floating Hamburger
+Hamburger Animation
 =========
 
 Designed by: http://dribbble.com/lobanovskiy
