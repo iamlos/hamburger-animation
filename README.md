@@ -1,4 +1,3 @@
 # Hamburger Animation
 
-#### Designed by: http://dribbble.com/lobanovskiy
-#### Live demo: http://codepen.io/mariusbalaj/pen/fxzCG
+![alt tag](https://d13yacurqjgara.cloudfront.net/users/14268/screenshots/1746065/video.gif)
