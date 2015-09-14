@@ -1,4 +1,4 @@
-Hamburger Animation
+# Hamburger Animation
 =========
 
 Designed by: http://dribbble.com/lobanovskiy
