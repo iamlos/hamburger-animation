@@ -150,7 +150,7 @@ table {
 }
 
 body {
-  background: #02021a url("http://i.imgur.com/705GHlC.jpg") no-repeat 0 0;
+  background: #02021a url("../img/bg.jpg") no-repeat 0 0;
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
   color: #fff;
